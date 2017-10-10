@@ -17,4 +17,10 @@ namespace DroneLander.Common
         public const double StartingFuel = 1000.0;
         public const double StartingThrust = 0.0;
     }
+
+    public static class MobileCenterConstants
+    {
+        public const string AndroidAppId = "07ad9038-00fc-41c6-887b-5c39671c7e8e;";
+        public const string iOSAppId = "";
+    }
 }
