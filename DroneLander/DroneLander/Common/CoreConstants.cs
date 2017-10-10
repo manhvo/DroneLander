@@ -20,7 +20,7 @@ namespace DroneLander.Common
 
     public static class MobileCenterConstants
     {
-        public const string AndroidAppId = "07ad9038-00fc-41c6-887b-5c39671c7e8e;";
+        public const string AndroidAppId = "07ad9038-00fc-41c6-887b-5c39671c7e8e";
         public const string iOSAppId = "";
     }
 }
