@@ -28,4 +28,10 @@ namespace DroneLander.Common
     {
         public const string AppUrl = "https://dronelandermanh.azurewebsites.net";
     }
+
+    public static class TelemetryConstants
+    {
+        public const string DisplayName = "Glenn Curtis";
+        public const string Tagline = "";
+    }
 }
