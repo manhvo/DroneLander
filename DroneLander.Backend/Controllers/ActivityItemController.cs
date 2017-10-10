@@ -9,6 +9,7 @@ using DroneLander.Service.DataObjects;
 
 namespace DroneLander.Service.Controllers
 {
+    [Authorize]
     public class ActivityItemController : TableController<ActivityItem>
     {
         protected override void Initialize(HttpControllerContext controllerContext)

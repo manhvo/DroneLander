@@ -7,6 +7,7 @@ using DroneLander.Service.DataObjects;
 
 namespace DroneLander.Service.Controllers
 {
+    [Authorize]
     [MobileAppController]
     public class TelemetryController : ApiController
     {
